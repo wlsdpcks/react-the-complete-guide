@@ -16,7 +16,7 @@ const AddUser = (props) => {
       // 더 안전하기 하기 위해 +를 붙여주기(입력된 나이값을 숫자형으로 바꿔주기)
       return;
     }
-    console.log(enteredUsername, enteredAge);
+    props.onAddUser(enteredUsername, enteredAge);
     setEnteredUsername("");
     setEnteredAge("");
   };
