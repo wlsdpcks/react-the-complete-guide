@@ -1,6 +1,7 @@
 import React from "react";
+
 import Card from "../UI/Card";
-import classes from "../User/UsersList.module.css";
+import classes from "./UsersList.module.css";
 
 const UsersList = (props) => {
   return (
